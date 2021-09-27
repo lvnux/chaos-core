@@ -19,3 +19,4 @@
 
 /plugins/logger/zap/testdata/*
 go.sum
+vendor
