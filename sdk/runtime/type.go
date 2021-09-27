@@ -1,12 +1,13 @@
 package runtime
 
 import (
-	"github.com/gin-gonic/gin"
 	"net/http"
 
+	"github.com/gin-gonic/gin"
+
 	"github.com/casbin/casbin/v2"
-	"github.com/go-admin-team/go-admin-core/logger"
-	"github.com/go-admin-team/go-admin-core/storage"
+	"github.com/lvnux/chaos-core/logger"
+	"github.com/lvnux/chaos-core/storage"
 	"github.com/robfig/cron/v3"
 	"gorm.io/gorm"
 )
@@ -27,7 +28,7 @@ type Runtime interface {
 
 	GetRouter() []Router
 
-	// SetLogger 使用go-admin定义的logger，参考来源go-micro
+	// SetLogger 使用chaos-core定义的logger，参考来源go-micro
 	SetLogger(logger logger.Logger)
 	GetLogger() logger.Logger
 

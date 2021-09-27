@@ -4,11 +4,11 @@ import (
 	"errors"
 	"time"
 
-	"github.com/go-admin-team/go-admin-core/config/encoder"
-	"github.com/go-admin-team/go-admin-core/config/encoder/json"
-	"github.com/go-admin-team/go-admin-core/config/reader"
-	"github.com/go-admin-team/go-admin-core/config/source"
 	"github.com/imdario/mergo"
+	"github.com/lvnux/chaos-core/config/encoder"
+	"github.com/lvnux/chaos-core/config/encoder/json"
+	"github.com/lvnux/chaos-core/config/reader"
+	"github.com/lvnux/chaos-core/config/source"
 )
 
 const readerTyp = "json"

@@ -5,7 +5,7 @@ import (
 
 	"strings"
 
-	"github.com/go-admin-team/go-admin-core/config/source"
+	"github.com/lvnux/chaos-core/config/source"
 )
 
 type strippedPrefixKey struct{}
