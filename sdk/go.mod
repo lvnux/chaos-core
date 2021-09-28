@@ -16,7 +16,7 @@ require (
 	github.com/google/uuid v1.1.2
 	github.com/gorilla/websocket v1.4.2
 	github.com/lvnux/chaos-core v1.4.0
-	github.com/lvnux/chaos-core/plugins/logger/zap v1.4.0
+	github.com/lvnux/chaos-core/plugins/logger/zap v1.3.5-rc.0
 	github.com/lvnux/gorm-adapter/v3 v3.2.1-0.20210927115859-c0b2776f5e69
 	github.com/mojocn/base64Captcha v1.3.1
 	github.com/nsqio/go-nsq v1.0.8
