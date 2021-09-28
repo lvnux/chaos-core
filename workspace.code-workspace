@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "plugins\\logger\\zap"
+		},
+		{
+			"path": "plugins\\logger\\logrus"
+		},
+		{
+			"path": "sdk"
+		}
+	],
+    "settings": {}
+}
