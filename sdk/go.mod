@@ -15,8 +15,8 @@ require (
 	github.com/go-redis/redis/v7 v7.4.0
 	github.com/google/uuid v1.1.2
 	github.com/gorilla/websocket v1.4.2
-	github.com/lvnux/chaos-core v1.3.5-rc.5
-	github.com/lvnux/chaos-core/plugins/logger/zap v0.0.0-20210610020726-2db73adb505d
+	github.com/lvnux/chaos-core v1.3.9-0.20210928035301-894bf665530a
+	github.com/lvnux/chaos-core/plugins/logger/zap v1.3.9-0.20210928035301-894bf665530a
 	github.com/lvnux/gorm-adapter/v3 v3.2.1-0.20210927115859-c0b2776f5e69
 	github.com/mojocn/base64Captcha v1.3.1
 	github.com/nsqio/go-nsq v1.0.8
